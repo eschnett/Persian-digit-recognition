@@ -1,2 +1,3 @@
 # Persian-digit-recognition
-In this project I classify handwritten Persian numbers by Multilayer Perceptron( MLP) method.
+In this project I try to classify handwritten Persian numbers by MLP method. The data is freely available in: ‫‪https://users.encs.concordia.ca/~j_sadri/PersianDatabase.htm‬‬.
+I go through image files and resize thier size into 20*20 pixel and by using Image.open.convert I make a vector from each image. Then I make a dictionary from the Image vectors and stick label to vector of each number (same prosiger for Training and Test set). After that I merge all the produced dictionaries for Test and Training sets to two dictionary. And finally I train the system for variaty of layer with different number of neurons.
